@@ -73,15 +73,3 @@ Note: Arguments accept the absolute path of the files.
 #<student1_id>:<course_1>,
 
 -----------------------------------------------------------------------
-### Academic Honesty statement:
------------------------------------------------------------------------
-
-"I have done this assignment completely on my own. I have not copied
-it, nor have I given my solution to anyone else. I understand that if
-I am involved in plagiarism or cheating an official form will be
-submitted to the Academic Honesty Committee of the Watson School to
-determine the action that needs to be taken. "
-
-Date: 09/19/2019
-
------------------------------------------------------------------------

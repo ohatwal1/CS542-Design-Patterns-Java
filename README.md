@@ -7,4 +7,4 @@ This repository contains the CS542 coursework completed at the Binghamton Univer
 - STATE Pattern (Assignment-2)
 - OBSERVER Pattern (Assignment-3)
 - VISITOR Pattern (Assignment-4)
-- STRATEGY Pattern, Dynamic Proxy and Java Refelction (Assignment-5)
+- STRATEGY Pattern, Dynamic Proxy and Java Reflection (Assignment-5)

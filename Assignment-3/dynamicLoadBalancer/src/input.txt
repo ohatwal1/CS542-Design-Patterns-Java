@@ -1,0 +1,15 @@
+CLUSTER_OP__SCALE_UP host1
+CLUSTER_OP__SCALE_UP host2
+CLUSTER_OP__SCALE_UP host3
+SERVICE_OP__ADD_SERVICE binghamton.csx42.grades https://binghamton.edu/csx42/grades host1,host2,host3
+REQUEST binghamton.csx42.grades
+CLUSTER_OP__SCALE_UP host4
+REQUEST binghamton.csx42.grades
+SERVICE_OP__ADD_SERVICE binghamton.student.info https://binghamton.edu/students/info host4
+REQUEST binghamton.student.info
+SERVICE_OP__ADD_INSTANCE binghamton.csx42.grades host4
+REQUEST binghamton.csx42.grades
+SERVICE_OP__REMOVE_SERVICE binghamton.student.info
+REQUEST binghamton.csx42.grades
+SERVICE_OP__REMOVE_SERVICE binghamton.csx42.grades
+REQUEST binghamton.csx42.grades

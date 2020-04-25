@@ -1,0 +1,3 @@
+1235:A B D E F G H J K L M N O P Q R S T U V I
+2235:G H J K L M N B D E F O A P Q R I S T U V
+3235:G H K L M N B D E F O A P Q R I S T U V

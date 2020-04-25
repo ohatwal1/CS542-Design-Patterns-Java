@@ -1,0 +1,4 @@
+If Debian has a problem detecting the drive, it could be that the portable drive is not receiving enough power.
+System reinstallation is not possible unless the XYZ software performs a sanity check.
+All products from AMD have a compatible CPU as far as dSeaGate is concerned.
+dSeaGate software can be reinstalled only once.
